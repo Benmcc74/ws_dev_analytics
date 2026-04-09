@@ -1,0 +1,43 @@
+CREATE TABLE [gold].[DIM_DATE] (
+
+	[SK_DATE] bigint NOT NULL, 
+	[CALENDAR_DATE] date NULL, 
+	[MONTH_YEAR] varchar(9) NULL, 
+	[DAY_NUMBER_IN_WEEK] bigint NULL, 
+	[DAY_NUMBER_IN_YEAR] bigint NULL, 
+	[WEEK_NUMBER_IN_YEAR] bigint NULL, 
+	[MONTH_NUMBER_IN_YEAR] bigint NULL, 
+	[QUARTER_NUMBER_IN_YEAR] bigint NULL, 
+	[IS_WEEKEND] varchar(1) NULL, 
+	[YEAR_NUMBER] bigint NULL, 
+	[DAY_NAME] varchar(9) NULL, 
+	[MONTH_NAME] varchar(10) NULL, 
+	[JULIAN_DATE] bigint NULL, 
+	[ASAT_JULIAN] bigint NULL, 
+	[ISO_WEEK] bigint NULL, 
+	[ISO_YEAR] bigint NULL, 
+	[FISCAL_DAY] bigint NULL, 
+	[FISCAL_WEEK] bigint NULL, 
+	[FISCAL_MONTH] bigint NULL, 
+	[FISCAL_QUARTER] bigint NULL, 
+	[FISCAL_YEAR] bigint NULL, 
+	[TAX_PERIOD] bigint NULL, 
+	[TAX_QUARTER] bigint NULL, 
+	[TAX_YEAR] bigint NULL, 
+	[LONG_DATE_DESCRIPTION] varchar(30) NULL, 
+	[MONTH_END_INDICATOR] varchar(1) NULL, 
+	[PUBLIC_HOLIDAY_INDICATOR] varchar(1) NULL, 
+	[YEAR_QUARTER] varchar(8) NULL, 
+	[YEAR_MONTH] varchar(8) NULL, 
+	[YEAR_ISO_WEEK] varchar(8) NULL, 
+	[NUMBER_OF_DAYS_IN_MONTH] bigint NULL, 
+	[NUMBER_OF_DAYS_IN_YEAR] bigint NULL, 
+	[YEAR_HALFYEAR] varchar(10) NULL, 
+	[TRADING_WEEK] varchar(9) NULL, 
+	[LOAD_DATE] date NULL, 
+	[LOAD_TIME] datetime2(6) NULL
+);
+
+
+GO
+ALTER TABLE [gold].[DIM_DATE] ADD CONSTRAINT DDATE_PK primary key NONCLUSTERED ([SK_DATE]);

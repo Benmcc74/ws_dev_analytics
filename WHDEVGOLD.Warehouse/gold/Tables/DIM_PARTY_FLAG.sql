@@ -1,0 +1,23 @@
+CREATE TABLE [gold].[DIM_PARTY_FLAG] (
+
+	[SK_PARTY_FLAG] uniqueidentifier NOT NULL, 
+	[PARTY_MDM_ID] varchar(40) NOT NULL, 
+	[IS_ASSUMED_VC_FLAG] varchar(1) NULL, 
+	[IS_DORMANT_FLAG] varchar(1) NULL, 
+	[IS_DECEASED_FLAG] varchar(1) NULL, 
+	[MCNR_DEBT_FLAG] varchar(1) NULL, 
+	[OPEN_COMPLAINT_FLAG] varchar(1) NULL, 
+	[OPEN_LITIGATION_FLAG] varchar(1) NULL, 
+	[YBS_WEB_ENABLED_FLAG] varchar(1) NULL, 
+	[AML_WEB_ENABLED_FLAG] varchar(1) NULL, 
+	[CBS_WEB_ENABLED_FLAG] varchar(1) NULL, 
+	[START_DATE] datetime2(3) NOT NULL, 
+	[END_DATE] datetime2(3) NULL, 
+	[HASH_VALUE] varchar(256) NULL, 
+	[DELETED_FLAG] varchar(1) NULL, 
+	[BATCH_ID] varchar(256) NOT NULL
+);
+
+
+GO
+ALTER TABLE [gold].[DIM_PARTY_FLAG] ADD CONSTRAINT DPARFL_PK primary key NONCLUSTERED ([SK_PARTY_FLAG]);

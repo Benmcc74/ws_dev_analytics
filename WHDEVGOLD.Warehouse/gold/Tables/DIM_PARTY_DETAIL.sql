@@ -1,0 +1,33 @@
+CREATE TABLE [gold].[DIM_PARTY_DETAIL] (
+
+	[SK_PARTY_DETAIL] uniqueidentifier NOT NULL, 
+	[PARTY_MDM_ID] varchar(40) NOT NULL, 
+	[PARTY_TYPE] varchar(100) NULL, 
+	[STATUS] varchar(20) NULL, 
+	[FIRST_NAMES] varchar(70) NULL, 
+	[LAST_NAMES] varchar(70) NULL, 
+	[TITLE] varchar(70) NULL, 
+	[SUFFIX] varchar(30) NULL, 
+	[GENDER] varchar(20) NULL, 
+	[DOB] date NULL, 
+	[MARITAL_STATUS] varchar(20) NULL, 
+	[NI_NUMBER] varchar(9) NULL, 
+	[TAX_ID_NUMBER] varchar(30) NULL, 
+	[TAX_DOMICILE] varchar(6) NULL, 
+	[FATCA_ELIGIBLE] varchar(1) NULL, 
+	[RELATIONSHIP_START_DATE] datetime2(6) NULL, 
+	[RELATIONSHIP_END_DATE] datetime2(6) NULL, 
+	[RETENTION_END_DATE] datetime2(6) NULL, 
+	[DECEASED_DATE] date NULL, 
+	[DECEASED_NOTIFICATION_DATE] date NULL, 
+	[DECEASED_EVIDENCE_DATE] date NULL, 
+	[START_DATE] datetime2(3) NOT NULL, 
+	[END_DATE] datetime2(3) NULL, 
+	[HASH_VALUE] varchar(256) NULL, 
+	[DELETED_FLAG] varchar(1) NULL, 
+	[BATCH_ID] varchar(256) NOT NULL
+);
+
+
+GO
+ALTER TABLE [gold].[DIM_PARTY_DETAIL] ADD CONSTRAINT DPARDT_PK primary key NONCLUSTERED ([SK_PARTY_DETAIL]);
