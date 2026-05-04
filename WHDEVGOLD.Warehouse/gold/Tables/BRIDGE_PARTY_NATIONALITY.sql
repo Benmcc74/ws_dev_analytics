@@ -7,7 +7,8 @@ CREATE TABLE [gold].[BRIDGE_PARTY_NATIONALITY] (
 	[END_DATE] datetime2(3) NULL, 
 	[HASH_VALUE] varchar(256) NULL, 
 	[DELETED_FLAG] varchar(1) NULL, 
-	[BATCH_ID] varchar(256) NOT NULL
+	[BATCH_ID] varchar(256) NOT NULL, 
+	[LOAD_DATE] datetime2(3) NOT NULL
 );
 
 

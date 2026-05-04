@@ -1588,6 +1588,21 @@
                 "value": "Automatic"
               }
             ]
+          },
+          {
+            "name": "LOAD_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "LOAD_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "LOAD_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
           }
         ],
         "partitions": [
@@ -2445,6 +2460,96 @@
                 "value": "Automatic"
               }
             ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE_WORK_PHONE",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE_WORK_PHONE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE_WORK_PHONE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE_MOBILE_PHONE",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE_MOBILE_PHONE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE_MOBILE_PHONE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE_HOME_PHONE",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE_HOME_PHONE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE_HOME_PHONE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE_EMAIL",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE_EMAIL",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE_EMAIL",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE_ADDRESS",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE_ADDRESS",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE_ADDRESS",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LOAD_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "LOAD_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "LOAD_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
           }
         ],
         "partitions": [
@@ -2841,6 +2946,36 @@
                 "value": "Automatic"
               }
             ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LOAD_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "LOAD_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "LOAD_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
           }
         ],
         "partitions": [
@@ -3090,6 +3225,36 @@
                 "value": "Automatic"
               }
             ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LOAD_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "LOAD_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "LOAD_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
           }
         ],
         "partitions": [
@@ -3234,6 +3399,36 @@
             "sourceColumn": "BATCH_ID",
             "sourceProviderType": "varchar",
             "sourceLineageTag": "BATCH_ID",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SOURCE_EDIT_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "SOURCE_EDIT_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "SOURCE_EDIT_DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LOAD_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "LOAD_DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "LOAD_DATE",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -3441,157 +3636,6 @@
         ]
       },
       {
-        "name": "Sample_DIM_PARTY_NATIONALITY",
-        "sourceLineageTag": "[gold].[Sample_DIM_PARTY_NATIONALITY]",
-        "columns": [
-          {
-            "name": "SK_CUSTOMER_NATIONALITY",
-            "sourceColumn": "SK_CUSTOMER_NATIONALITY",
-            "sourceProviderType": "uniqueidentifier",
-            "sourceLineageTag": "SK_CUSTOMER_NATIONALITY",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "PARTY_MDM_ID",
-            "dataType": "string",
-            "sourceColumn": "PARTY_MDM_ID",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "PARTY_MDM_ID",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "NATIONALITY",
-            "dataType": "string",
-            "sourceColumn": "NATIONALITY",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "NATIONALITY",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "FIRST_DECL_NTNLTY_FLAG",
-            "dataType": "string",
-            "sourceColumn": "FIRST_DECL_NTNLTY_FLAG",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "FIRST_DECL_NTNLTY_FLAG",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "START_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "START_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "START_DATE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "END_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "END_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "END_DATE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "HASH_VALUE",
-            "dataType": "string",
-            "sourceColumn": "HASH_VALUE",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "HASH_VALUE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "DELETED_FLAG",
-            "dataType": "string",
-            "sourceColumn": "DELETED_FLAG",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "DELETED_FLAG",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "BATCH_ID",
-            "dataType": "string",
-            "sourceColumn": "BATCH_ID",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "BATCH_ID",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          }
-        ],
-        "partitions": [
-          {
-            "name": "{{Partition_Name}}",
-            "mode": "directLake",
-            "source": {
-              "type": "entity",
-              "entityName": "Sample_DIM_PARTY_NATIONALITY",
-              "expressionSource": "DatabaseQuery",
-              "schemaName": "gold"
-            }
-          }
-        ],
-        "annotations": [
-          {
-            "name": "IsTableInBiModel",
-            "value": "False"
-          }
-        ]
-      },
-      {
         "name": "VW_BRIDGE_PARTY_NATIONALITY",
         "sourceLineageTag": "[gold].[VW_BRIDGE_PARTY_NATIONALITY]",
         "columns": [
@@ -3675,6 +3719,45 @@
             "source": {
               "type": "entity",
               "entityName": "VW_BRIDGE_PARTY_NATIONALITY",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "gold"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
+          }
+        ]
+      },
+      {
+        "name": "VW_DATA_REFRESH_INFO",
+        "sourceLineageTag": "[gold].[VW_DATA_REFRESH_INFO]",
+        "columns": [
+          {
+            "name": "data_as_of",
+            "dataType": "dateTime",
+            "sourceColumn": "data_as_of",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "sourceLineageTag": "data_as_of",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "VW_DATA_REFRESH_INFO",
               "expressionSource": "DatabaseQuery",
               "schemaName": "gold"
             }
@@ -3921,21 +4004,6 @@
             ]
           },
           {
-            "name": "FISCAL_YEAR",
-            "dataType": "int64",
-            "sourceColumn": "FISCAL_YEAR",
-            "formatString": "0",
-            "sourceProviderType": "bigint",
-            "sourceLineageTag": "FISCAL_YEAR",
-            "summarizeBy": "sum",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
             "name": "LOAD_DATE",
             "dataType": "dateTime",
             "sourceColumn": "LOAD_DATE",
@@ -3951,12 +4019,11 @@
             ]
           },
           {
-            "name": "LOAD_TIME",
-            "dataType": "dateTime",
-            "sourceColumn": "LOAD_TIME",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "LOAD_TIME",
+            "name": "YEAR_MONTH",
+            "dataType": "string",
+            "sourceColumn": "YEAR_MONTH",
+            "sourceProviderType": "nvarchar",
+            "sourceLineageTag": "YEAR_MONTH",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -4046,55 +4113,11 @@
             ]
           },
           {
-            "name": "LINE_3",
-            "dataType": "string",
-            "sourceColumn": "LINE_3",
-            "sourceProviderType": "varchar",
-            "sourceLineageTag": "LINE_3",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
             "name": "ADDRESS_TYPE",
             "dataType": "string",
             "sourceColumn": "ADDRESS_TYPE",
             "sourceProviderType": "varchar",
             "sourceLineageTag": "ADDRESS_TYPE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "START_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "START_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "START_DATE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "END_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "END_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "END_DATE",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -4228,21 +4251,6 @@
             ]
           },
           {
-            "name": "CUSTOMER_TENURE_YEARS",
-            "dataType": "int64",
-            "sourceColumn": "CUSTOMER_TENURE_YEARS",
-            "formatString": "0",
-            "sourceProviderType": "int",
-            "sourceLineageTag": "CUSTOMER_TENURE_YEARS",
-            "summarizeBy": "sum",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
             "name": "CUSTOMER_TENURE_BAND",
             "dataType": "string",
             "sourceColumn": "CUSTOMER_TENURE_BAND",
@@ -4257,12 +4265,11 @@
             ]
           },
           {
-            "name": "START_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "START_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "START_DATE",
+            "name": "AGE_BAND",
+            "dataType": "string",
+            "sourceColumn": "AGE_BAND",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "AGE_BAND",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -4272,13 +4279,28 @@
             ]
           },
           {
-            "name": "END_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "END_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "END_DATE",
-            "summarizeBy": "none",
+            "name": "AGE_GROUP_SORT",
+            "dataType": "int64",
+            "sourceColumn": "AGE_GROUP_SORT",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "sourceLineageTag": "AGE_GROUP_SORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TENURE_SORT",
+            "dataType": "int64",
+            "sourceColumn": "TENURE_SORT",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "sourceLineageTag": "TENURE_SORT",
+            "summarizeBy": "sum",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -4421,36 +4443,6 @@
                 "value": "Automatic"
               }
             ]
-          },
-          {
-            "name": "START_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "START_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "START_DATE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "END_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "END_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "END_DATE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
           }
         ],
         "partitions": [
@@ -4524,36 +4516,6 @@
             "sourceColumn": "FIRST_DECL_NTNLTY_FLAG",
             "sourceProviderType": "varchar",
             "sourceLineageTag": "FIRST_DECL_NTNLTY_FLAG",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "START_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "START_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "START_DATE",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "END_DATE",
-            "dataType": "dateTime",
-            "sourceColumn": "END_DATE",
-            "formatString": "General Date",
-            "sourceProviderType": "datetime2",
-            "sourceLineageTag": "END_DATE",
             "summarizeBy": "none",
             "annotations": [
               {

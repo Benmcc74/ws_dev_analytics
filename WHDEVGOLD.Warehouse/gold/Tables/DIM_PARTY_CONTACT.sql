@@ -15,11 +15,17 @@ CREATE TABLE [gold].[DIM_PARTY_CONTACT] (
 	[HOME_PHONE] varchar(50) NULL, 
 	[WORK_PHONE] varchar(50) NULL, 
 	[PREF_COMM_METHOD] varchar(6) NULL, 
+	[SOURCE_EDIT_DATE_WORK_PHONE] datetime2(3) NULL, 
+	[SOURCE_EDIT_DATE_MOBILE_PHONE] datetime2(3) NULL, 
+	[SOURCE_EDIT_DATE_HOME_PHONE] datetime2(3) NULL, 
+	[SOURCE_EDIT_DATE_EMAIL] datetime2(3) NULL, 
+	[SOURCE_EDIT_DATE_ADDRESS] datetime2(3) NULL, 
 	[START_DATE] datetime2(3) NOT NULL, 
 	[END_DATE] datetime2(3) NULL, 
 	[HASH_VALUE] varchar(256) NULL, 
 	[DELETED_FLAG] varchar(1) NULL, 
-	[BATCH_ID] varchar(256) NOT NULL
+	[BATCH_ID] varchar(256) NOT NULL, 
+	[LOAD_DATE] datetime2(3) NOT NULL
 );
 
 

@@ -1,0 +1,35 @@
+CREATE     PROCEDURE SP_PARTY_FLAG
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Drop the table if it exists
+    IF OBJECT_ID('[PARTY_FLAG_ACTIVE]', 'U') IS NOT NULL
+        DROP TABLE [PARTY_FLAG_ACTIVE];
+
+    -- Recreate the table
+    CREATE TABLE [PARTY_FLAG_ACTIVE] (
+        SK_PARTY_FLAG          VARCHAR(36),
+        PARTY_MDM_ID           VARCHAR(50),
+        IS_ASSUMED_VC_FLAG     BIT,
+        IS_DORMANT_FLAG        BIT,
+        IS_DECEASED_FLAG       BIT,
+        MCNR_DEBT_FLAG         BIT,
+        OPEN_COMPLAINT_FLAG    BIT,
+        OPEN_LITIGATION_FLAG   BIT
+    );
+
+    -- Insert data
+    INSERT INTO [PARTY_FLAG_ACTIVE]
+    SELECT
+        CAST(SK_PARTY_FLAG AS VARCHAR(36)) AS SK_PARTY_FLAG,
+        PARTY_MDM_ID,
+        IS_ASSUMED_VC_FLAG,
+        IS_DORMANT_FLAG,
+        IS_DECEASED_FLAG,
+        MCNR_DEBT_FLAG,
+        OPEN_COMPLAINT_FLAG,
+        OPEN_LITIGATION_FLAG
+    FROM [gold].[DIM_PARTY_FLAG]
+    WHERE END_DATE IS NULL;
+END;

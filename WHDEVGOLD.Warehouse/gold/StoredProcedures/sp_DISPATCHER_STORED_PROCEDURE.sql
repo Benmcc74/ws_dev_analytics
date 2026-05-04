@@ -1,4 +1,4 @@
-CREATE     PROCEDURE [gold].[sp_DISPATCHER_STORED_PROCEDURE]
+CREATE       PROCEDURE gold.sp_DISPATCHER_STORED_PROCEDURE
     @child_stored_procedure_name NVARCHAR(200),
     @batch_id NVARCHAR(100)
 AS

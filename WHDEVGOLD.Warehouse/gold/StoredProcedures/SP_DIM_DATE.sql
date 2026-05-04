@@ -1,4 +1,4 @@
-CREATE     PROCEDURE [gold].[SP_DIM_DATE]
+CREATE       PROCEDURE gold.SP_DIM_DATE
 (
       @StartDate DATE = '1800-01-01'
     , @EndDate   DATE = '2100-12-31'

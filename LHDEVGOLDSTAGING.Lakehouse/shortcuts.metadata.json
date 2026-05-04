@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "name": "postal_addresses",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/postal_addresses",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "phone_numbers",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/phone_numbers",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "people",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/people",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "party_references",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/party_references",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "party_nationalities",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/party_nationalities",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "parties",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/parties",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "email_addresses",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/email_addresses",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  },
+  {
+    "name": "communication_preferences",
+    "path": "/Tables/silver",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/silver/communication_preferences",
+        "itemId": "aafb5cbd-b934-446f-a2c0-fa56a4be7e9c",
+        "workspaceId": "d021c3f1-8374-419e-87ab-d3d45db22fb1"
+      }
+    }
+  }
+]

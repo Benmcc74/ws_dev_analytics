@@ -21,11 +21,13 @@ CREATE TABLE [gold].[DIM_PARTY_DETAIL] (
 	[DECEASED_DATE] date NULL, 
 	[DECEASED_NOTIFICATION_DATE] date NULL, 
 	[DECEASED_EVIDENCE_DATE] date NULL, 
+	[SOURCE_EDIT_DATE] datetime2(3) NULL, 
 	[START_DATE] datetime2(3) NOT NULL, 
 	[END_DATE] datetime2(3) NULL, 
 	[HASH_VALUE] varchar(256) NULL, 
 	[DELETED_FLAG] varchar(1) NULL, 
-	[BATCH_ID] varchar(256) NOT NULL
+	[BATCH_ID] varchar(256) NOT NULL, 
+	[LOAD_DATE] datetime2(3) NOT NULL
 );
 
 
